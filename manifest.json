@@ -1,0 +1,17 @@
+{
+  "name": "Forvo MP3 Links",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Creates links to download forvo recordings",
+  "author": "Luke",
+  "content_scripts": [
+    {
+      "matches": [
+        "http://forvo.com/word/*"
+      ],
+      "js": [
+        "src/inject/inject.js"
+      ]
+    }
+  ]
+}

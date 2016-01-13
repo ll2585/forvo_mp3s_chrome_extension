@@ -2,7 +2,7 @@
   "name": "Forvo MP3 Links",
   "version": "0.0.1",
   "manifest_version": 2,
-  "description": "Creates links to download forvo recordings",
+  "description": "Creates links to download Forvo recordings",
   "author": "Luke",
   "content_scripts": [
     {
